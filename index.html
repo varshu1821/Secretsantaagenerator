@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secret_santa_generator</title>
+    <link rel="icon" href="images/t_icon.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div  class="navbar">
+        <a href="index.html"><b>Home</b></a> &nbsp;
+        <a href="shop.html"><b>Shop Gifts</b></a>
+        <a href="contact.html"><b>Contact Us</b></a>
+        <a href="about.html"><b>About</b></a>
+    </div>
+    <div class="container">
+        <div class="cont1"> 
+            <h1>Secret Santa Generator</h1>
+            <form id="secretsantaform">
+                <label for="participants"><b>Enter Participants:</b></label><br>
+                <textarea id="participants" rows="5"></textarea><br>
+                <button type="submit">Generate Secret Santas</button>
+            </form>
+            <div id="output"></div>
+        </div>
+        <script src="script.js"></script>
+    </div>
+</body>
+</html>
